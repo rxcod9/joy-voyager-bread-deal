@@ -14,7 +14,7 @@ class DummyDealsTableSeeder extends Seeder
      */
     public function run()
     {
-        $count = 100;
+        $count = 20;
         Deal::factory()
             ->count($count)
             ->state(function (array $attributes) use ($count) {
